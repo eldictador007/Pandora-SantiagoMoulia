@@ -3,37 +3,6 @@
   margin: 0;
 }
 
-.paddingTB {
-  padding-top: 50px;
-  padding-bottom: 50px;
-}
-
-.footerBg h3 {
-  text-align: center;
-}
-
-/* .col-lg-12,.col-lg-6{padding-right: 0;padding-left: 0;} */
-.paddingT {
-  padding-top: 50px;
-}
-
-/* .centrar{text-align: center;} */
-.paddingLR {
-  padding-left: 10px;
-  padding-right: 10px;
-}
-
-.ico_foo {
-  transition: 1s;
-}
-
-.ico_foo:hover {
-  transform: translateY(-10px);
-  cursor: pointer;
-}
-
-/* .redesSociales{transition: 1s;}
-.redesSociales:hover{color: blue; cursor: pointer;} */
 body {
   background-color: #cf9ddf;
   text-align: center;
@@ -53,6 +22,26 @@ iframe {
 main {
   margin: 15px;
   padding: 10px;
+}
+
+.paddingTB {
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+.footerBg h3 {
+  text-align: center;
+}
+
+/* .col-lg-12,.col-lg-6{padding-right: 0;padding-left: 0;} */
+.paddingT {
+  padding-top: 50px;
+}
+
+/* .centrar{text-align: center;} */
+.paddingLR {
+  padding-left: 10px;
+  padding-right: 10px;
 }
 
 .footerBg {
@@ -80,6 +69,17 @@ main {
   color: #4cdde2;
 }
 
+.ico_foo {
+  transition: 1s;
+}
+
+.ico_foo:hover {
+  transform: translateY(-10px);
+  cursor: pointer;
+}
+
+/* .redesSociales{transition: 1s;}
+.redesSociales:hover{color: blue; cursor: pointer;} */
 /* vista desktop */
 @media only screen and (min-width: 1024px) {
   .navbar-expand-lg .navbar-collapse {
