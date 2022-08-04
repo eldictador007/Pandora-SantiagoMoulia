@@ -1,101 +1,17 @@
-* {
-  padding: 0;
-  margin: 0;
-}
+/* Error: Undefined variable.
+ *    ,
+ * 96 |     .col-#{$i}{
+ *    |            ^^
+ *    '
+ *   scss\main.scss 96:9  root stylesheet */
 
-body {
-  background-color: #cf9ddf;
-  text-align: center;
+body::before {
+  font-family: "Source Code Pro", "SF Mono", Monaco, Inconsolata, "Fira Mono",
+      "Droid Sans Mono", monospace, monospace;
+  white-space: pre;
+  display: block;
+  padding: 1em;
+  margin-bottom: 1em;
+  border-bottom: 2px solid black;
+  content: "Error: Undefined variable.\a    \2577 \a 96 \2502      .col-#{$i}{\d\a    \2502             ^^\a    \2575 \a   scss\\main.scss 96:9  root stylesheet";
 }
-
-.pie a {
-  display: inline-block;
-  margin: 10px;
-  width: 30px;
-}
-
-iframe {
-  max-width: 100%;
-  max-height: 100%;
-}
-
-main {
-  margin: 15px;
-  padding: 10px;
-}
-
-.paddingTB {
-  padding-top: 50px;
-  padding-bottom: 50px;
-}
-
-.footerBg h3 {
-  text-align: center;
-}
-
-/* .col-lg-12,.col-lg-6{padding-right: 0;padding-left: 0;} */
-.paddingT {
-  padding-top: 50px;
-}
-
-/* .centrar{text-align: center;} */
-.paddingLR {
-  padding-left: 10px;
-  padding-right: 10px;
-}
-
-.footerBg {
-  background-color: #4cdde2;
-}
-
-.navbar-dark .navbar-brand:focus, .navbar-dark .navbar-brand:hover {
-  color: #4cdde2;
-}
-
-.navbar-dark .navbar-brand {
-  color: #cf9ddf;
-}
-
-.navbar-dark .navbar-nav .nav-link:focus, .navbar-dark .navbar-nav .nav-link:hover {
-  color: #cf9ddf;
-}
-
-.navbar-dark .navbar-nav .nav-link {
-  color: #4cdde2;
-}
-
-.navbar-dark .navbar-nav .nav-link.active, .navbar-dark .navbar-nav .show > .nav-link {
-  font-weight: bold;
-  color: #4cdde2;
-}
-
-.ico_foo {
-  transition: 1s;
-}
-
-.ico_foo:hover {
-  transform: translateY(-10px);
-  cursor: pointer;
-}
-
-/* .redesSociales{transition: 1s;}
-.redesSociales:hover{color: blue; cursor: pointer;} */
-/* vista desktop */
-@media only screen and (min-width: 1024px) {
-  .navbar-expand-lg .navbar-collapse {
-    justify-content: flex-end;
-  }
-  .footerFlex {
-    display: flex;
-    justify-content: space-around;
-  }
-}
-/* vista mobile */
-@media only screen and (max-width: 767px) {
-  .footerFlex {
-    display: flex;
-    flex-direction: column;
-  }
-}
-
-/*# sourceMappingURL=style.css.map */
