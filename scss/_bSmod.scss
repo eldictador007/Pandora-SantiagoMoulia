@@ -11,21 +11,17 @@
 
 
 
-.footerBg{background-color: #4cdde2;}
+.footerBg{background-color: $aqua;}
 
-.navbar-dark .navbar-brand:focus, .navbar-dark .navbar-brand:hover {
-    color: #4cdde2;
-  }
+
   .navbar-dark .navbar-brand {
-    color: #cf9ddf;
+    color: $rosa;
   }
-  .navbar-dark .navbar-nav .nav-link:focus, .navbar-dark .navbar-nav .nav-link:hover {
-    color: #cf9ddf;
-  }
+
   .navbar-dark .navbar-nav .nav-link {
-    color: #4cdde2;
+    color: $aqua;
   }
   .navbar-dark .navbar-nav .nav-link.active, .navbar-dark .navbar-nav .show > .nav-link {
     font-weight: bold;
-    color: #4cdde2;
+    color: $aqua;
   }

@@ -1,7 +1,9 @@
-@use 'layout.scss';
-@use 'bSmod.scss';
-@use 'animaciones.scss';
-@use 'mQs.scss';
+@import 'colores'; /* Contiene variables */ 
+@import 'layout';
+
+@import 'animaciones';
+
+@import 'mQs';
+@import 'bSmod';
 
 
- 

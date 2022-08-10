@@ -7,4 +7,5 @@ _Pandora
 
 10/08
   - Limpieza de codigo css con condicionales, operadores y bucles.
+  - Titulos agregados a las imagenes de galeria.html
   -
