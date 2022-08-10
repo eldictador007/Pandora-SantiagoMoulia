@@ -28,7 +28,6 @@ iframe {
 }
 
 main {
-  margin: 15px;
   padding: 10px;
 }
 
@@ -49,6 +48,27 @@ body {
   color: #df9dcb;
 }
 
+.navbar-dark .navbar-brand {
+  color: #df9dcb;
+}
+
+.navbar-dark .navbar-nav .nav-link {
+  color: #37d1d6;
+}
+
+.navbar-dark .navbar-nav .nav-link.active, .navbar-dark .navbar-nav .show > .nav-link {
+  color: #37d1d6;
+  font-weight: bold;
+}
+
+.footerBg {
+  background-color: #37d1d6;
+}
+
+.footerBg h3 {
+  text-align: center;
+}
+
 /* vista desktop */
 @media only screen and (min-width: 1024px) {
   .navbar-expand-lg .navbar-collapse {
@@ -65,40 +85,6 @@ body {
     display: flex;
     flex-direction: column;
   }
-}
-.paddingTB {
-  padding-top: 50px;
-  padding-bottom: 50px;
-}
-
-.footerBg h3 {
-  text-align: center;
-}
-
-.paddingT {
-  padding-top: 50px;
-}
-
-.paddingLR {
-  padding-left: 10px;
-  padding-right: 10px;
-}
-
-.footerBg {
-  background-color: #37d1d6;
-}
-
-.navbar-dark .navbar-brand {
-  color: #df9dcb;
-}
-
-.navbar-dark .navbar-nav .nav-link {
-  color: #37d1d6;
-}
-
-.navbar-dark .navbar-nav .nav-link.active, .navbar-dark .navbar-nav .show > .nav-link {
-  font-weight: bold;
-  color: #37d1d6;
 }
 
 /*# sourceMappingURL=style.css.map */
