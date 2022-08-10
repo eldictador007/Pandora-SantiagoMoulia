@@ -1,4 +1,4 @@
-/* Declaracion de colores */ /* Contiene variables */
+/* Declaracion de colores */
 * {
   padding: 0;
   margin: 0;
@@ -11,20 +11,8 @@
   z-index: 99;
   font-size: 45px;
 }
-
 #top-btn a {
   color: #494949;
-}
-
-iframe {
-  margin-top: 30px;
-  max-width: 100%;
-  max-height: 100%;
-}
-
-.pie a {
-  margin: 15px;
-  width: 30px;
 }
 
 main {
@@ -34,13 +22,31 @@ main {
 body {
   background-color: #df9dcb;
   text-align: center;
+  font-family: "Rubik", sans-serif;
+}
+
+.galeria img {
+  max-height: 100%;
+  width: 75%;
+  margin-top: 5px;
+}
+
+iframe {
+  margin-top: 15px;
+  max-width: 100%;
+  max-height: 100%;
+}
+
+.pie a {
+  margin: 15px;
+  width: 30px;
 }
 
 #top-btn a:hover {
   color: #751d69;
 }
 
-.navbar-dark .navbar-brand:focus, .navbar-dark .navbar-brand:hover {
+.navbar-dark .navbar-brand:focus, .navbar-dark h4:focus, .navbar-dark .navbar-brand:hover, .navbar-dark h4:hover {
   color: #37d1d6;
 }
 
@@ -48,8 +54,11 @@ body {
   color: #df9dcb;
 }
 
-.navbar-dark .navbar-brand {
+.navbar-dark .navbar-brand, .navbar-dark h4 {
   color: #df9dcb;
+  font-family: "Rubik", sans-serif;
+  font-family: "Rubik Burned", cursive;
+  font-weight: 400;
 }
 
 .navbar-dark .navbar-nav .nav-link {
@@ -57,16 +66,13 @@ body {
 }
 
 .navbar-dark .navbar-nav .nav-link.active, .navbar-dark .navbar-nav .show > .nav-link {
-  color: #37d1d6;
+  color: #df9dcb;
   font-weight: bold;
 }
 
 .footerBg {
   background-color: #37d1d6;
-}
-
-.footerBg h3 {
-  text-align: center;
+  color: #494949;
 }
 
 /* vista desktop */

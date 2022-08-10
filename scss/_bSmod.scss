@@ -1,29 +1,20 @@
 
+//
 .navbar-dark .navbar-brand {
-    color: $rosa;
-  }
-
+  color: map-get($paleta,'rosa');
+  font-family: 'Rubik', sans-serif;
+  font-family: 'Rubik Burned', cursive;
+  font-weight: 400;
+}
 .navbar-dark .navbar-nav .nav-link {
-    color: $aqua;
-  }
+  color: map-get($paleta,'aqua');
+}
 .navbar-dark .navbar-nav .nav-link.active, .navbar-dark .navbar-nav .show > .nav-link {
-  color: $aqua;
-  font-weight: bold;
-    
-  }
-
-
-.footerBg{background-color: $aqua;}
-.footerBg h3 { text-align: center;}
-
-
-
-// .paddingTB{padding-top: 50px;padding-bottom: 50px;}
-
-
-// .paddingT{padding-top: 50px;}
-
-// .paddingLR{padding-left: 10px; padding-right: 10px;}
-
-
+  color: map-get($paleta,'rosa');
+  font-weight: bold; 
+}
+.footerBg{
+  background-color: map-get($paleta,'aqua');
+  color: map-get($paleta, 'gris' );
+}
 
