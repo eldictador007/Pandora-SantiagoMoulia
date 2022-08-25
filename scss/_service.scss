@@ -1,46 +1,33 @@
 
-// 
+// // 
 
 
-#carrosa {
-    background-color: map-get( $paleta , 'rosa');
-    margin: 15px;
-    margin-top: 15px;
-    padding-bottom: 30px;
-}
+// #carrosa {
+//     background-color: map-get( $paleta , 'rosa');
+//     margin: 15px;
+//     margin-top: 15px;
+//     padding-bottom: 30px;
+// }
 
-#story {
-    background-color: map-get($paleta, 'aqua' );
-    padding: 15px;
-    margin-top: 15px;
-    padding-bottom: 30px;
-}
-#galery {
-    background-color: map-get($paleta, 'gris' );
-    color: map-get($paleta, 'aqua' );
-    margin-top: 15px;
-    padding-bottom: 30px;
-}
+// #story {
+//     background-color: map-get($paleta, 'aqua' );
+//     padding: 15px;
+//     margin-top: 15px;
+//     padding-bottom: 30px;
+// }
+// #galery {
+//     background-color: map-get($paleta, 'gris' );
+//     color: map-get($paleta, 'aqua' );
+//     margin-top: 15px;
+//     padding-bottom: 30px;
+// }
 
-#contact {
-    background-color: map-get($paleta,'lila');
-    padding: 30px;
-    color: map-get($paleta, 'aqua' );
-    margin-top: 15px;
-    padding-bottom: 30px;
-}
+// #contact {
+//     background-color: map-get($paleta,'lila');
+//     padding: 30px;
+//     color: map-get($paleta, 'aqua' );
+//     margin-top: 15px;
+//     padding-bottom: 30px;
+// }
 
-.btn-rosa {
-    background-color: map-get($paleta, 'rosa' );
-}
 
-.btn-aqua {
-    background-color: map-get($paleta, 'aqua' );
-}
-
-svg{
-
-    font-size: 42px;
-    margin: 30px;
-
-}
