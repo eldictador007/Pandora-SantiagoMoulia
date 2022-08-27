@@ -20,6 +20,6 @@ _Pandora
   - Mapa del sitio.
   
 27/08
-  - Creacion de sitio en ' https://app.netlify.com/ '.
+  - Creacion de sitio en ' https://app.netlify.com/ ' [https://4pandora2.netlify.app/].
   - Revision pre-entrega final.
-    
+  
