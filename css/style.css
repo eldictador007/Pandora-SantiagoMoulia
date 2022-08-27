@@ -3,7 +3,7 @@
   color: #751d69;
 }
 
-.navbar-dark .navbar-brand:focus, .navbar-dark h4:focus, .navbar-dark .navbar-brand:hover, .navbar-dark h4:hover {
+.navbar-dark .navbar-brand:focus, .navbar-dark .navbar-brand:hover {
   color: #37d1d6;
 }
 
@@ -18,8 +18,8 @@
 
 #top-btn {
   position: fixed;
-  bottom: 40px;
-  right: 20px;
+  bottom: 42px;
+  right: 24px;
   z-index: 99;
   font-size: 45px;
 }
@@ -27,14 +27,14 @@
   color: #494949;
 }
 
-main {
-  padding: 10px;
-}
-
 body {
   background-color: #df9dcb;
   text-align: center;
   font-family: "Rubik", sans-serif;
+}
+
+#story, #catalog {
+  margin: 24px 50px;
 }
 
 .galeria img {
@@ -44,26 +44,33 @@ body {
 }
 
 iframe {
-  margin-top: 15px;
-  max-width: 100%;
-  max-height: 100%;
+  padding: 15px;
+  max-width: 94%;
+  max-height: 94%;
 }
 
 .mail {
-  max-width: 650px;
+  max-width: 970px;
   margin: 20px auto;
 }
 
 .btn-rosa {
   background-color: #df9dcb;
+  border: dashed;
+  color: #494949;
 }
 
 .btn-aqua {
   background-color: #37d1d6;
+  border: solid;
+  color: #494949;
 }
 
 .footerBg {
   background-color: #37d1d6;
+  color: #751d69;
+}
+.footerBg a {
   color: #494949;
 }
 
@@ -72,7 +79,7 @@ svg {
   margin: 30px;
 }
 
-.navbar-dark .navbar-brand, .navbar-dark h4 {
+.navbar-dark .navbar-brand {
   color: #df9dcb;
   font-family: "Rubik", sans-serif;
   font-family: "Rubik Burned", cursive;

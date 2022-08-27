@@ -3,58 +3,65 @@
 *{padding: 0;margin: 0;}
 #top-btn {
   position: fixed;
-  bottom: 40px;
-  right: 20px;
+  bottom: 42px;
+  right: 24px;
   z-index: 99;
   font-size: 45px;
   a {
     color: map-get($paleta , 'gris' );
   }
 }  
-main {
-  padding: 10px;
-}
 body { 
   background-color: map-get($paleta, 'rosa' );
   text-align: center;
   font-family: 'Rubik', sans-serif;
 }
-.galeria img{
+#story, #catalog{
+  margin: 24px 50px;
+}
+
+
+.galeria img {
   @include media(100%,75%,5px) ;
 }
-h4 {
-  @extend .navbar-brand;
 
-}
+
 iframe {
-  margin-top: 15px;
-  max-width: 100%;
-  max-height: 100%;
+  padding: 15px;
+  max-width: 94%;
+  max-height: 94%;
 }
 
 .mail {
-  max-width: 650px;
+  max-width: 970px;
   margin: 20px auto;
-}
+  }
 
 .btn-rosa {
   background-color: map-get($paleta, 'rosa' );
+  border: dashed;
+  color: map-get($paleta, 'gris' );
 }
 
 .btn-aqua {
   background-color: map-get($paleta, 'aqua' );
-}
-
-.footerBg{
-  background-color: map-get($paleta,'aqua');
+  border: solid;
   color: map-get($paleta, 'gris' );
 }
 
-
-svg{
-
-  font-size: 42px;
-  margin: 30px;
-
+.footerBg {
+  background-color: map-get($paleta,'aqua');
+  color: map-get($paleta, 'lila' );
+  a {
+    color: map-get($paleta , 'gris' );
+  }
 }
+
+
+ svg {
+
+   font-size: 42px;
+   margin: 30px;
+
+ }
 
