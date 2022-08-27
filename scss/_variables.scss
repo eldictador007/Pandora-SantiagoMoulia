@@ -2,10 +2,10 @@
 //
 /* Declaracion de colores */
 $paleta: (
-    'aqua': #37d1d6,
-    'rosa': #df9dcb,
-    'lila': #751d69,
-    'gris': #494949,
+    'aqua': #57d5da,
+    'rosa': #f7a2dd,
+    'lila': #6b125f,
+    'gris': #2e2c3a,
 );
 @mixin media($mh,$w,$mt){
     max-height: $mh;

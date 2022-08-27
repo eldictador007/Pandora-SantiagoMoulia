@@ -8,4 +8,18 @@ _Pandora
 10/08
   - Limpieza de codigo css con condicionales, operadores y bucles.
   - Titulos agregados a las imagenes de galeria.html e implementacion de @mixin.
-  -
+  
+22/08
+  - Arreglos de maquetacion en 'body' y formulario de contacto.
+  - Compresion de imagenes con ' https://squoosh.app/ '.
+
+26/08
+  - Retoques de color.
+  - Limpieza de codigo y comentarios.
+  - Contenido y medios actualizados.
+  - Mapa del sitio.
+  
+27/08
+  - Creacion de sitio en ' https://app.netlify.com/ '.
+  - Revision pre-entrega final.
+    
