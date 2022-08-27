@@ -74,6 +74,14 @@ iframe {
   color: #494949;
 }
 
+.sitemap ul {
+  list-style: none;
+  padding: 0;
+}
+.sitemap ul li {
+  line-height: 15px;
+}
+
 svg {
   font-size: 42px;
   margin: 30px;

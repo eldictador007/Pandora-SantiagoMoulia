@@ -56,6 +56,15 @@ iframe {
     color: map-get($paleta , 'gris' );
   }
 }
+.sitemap {
+      ul {
+      list-style: none;
+      padding: 0;
+      li {    
+        line-height: 15px;
+      }
+    } 
+}
 
 
  svg {
